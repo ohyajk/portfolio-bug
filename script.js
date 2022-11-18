@@ -1,7 +1,7 @@
 const name = document.getElementById("name")
 
-const h2 = document.createElement("h2")
+const h1 = document.createElement("h1")
 
-h2.innerText = name;
+h1.innerText = name;
 
 document.getElementById("header").appendChild(h2);
